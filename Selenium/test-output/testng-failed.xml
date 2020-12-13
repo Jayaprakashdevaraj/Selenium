@@ -3,13 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="runner.RunLogin">
+      <class name="week5.day2.EditLead">
         <methods>
-          <include name="setUpClass"/>
-          <include name="runScenario" invocation-numbers="5 6"/>
-          <include name="tearDownClass"/>
+          <include name="editLead"/>
+          <include name="closeBrowser"/>
+          <include name="setFile"/>
+          <include name="login"/>
         </methods>
-      </class> <!-- runner.RunLogin -->
+      </class> <!-- week5.day2.EditLead -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
